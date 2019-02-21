@@ -257,7 +257,7 @@ footer:
   recto:
     #columns: "<50% =0% >50%"
     right:
-      content: 'Seite *{page-number}* von {page-count}'
+      content: '*{page-number}* / {page-count}'
     left:
       content: '(C) iSAQB e.V.'
       #content: '{section-or-chapter-title} | {page-number}'
