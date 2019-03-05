@@ -94,7 +94,7 @@ heading:
   margin_top: $vertical_rhythm * 0.4
   margin_bottom: $vertical_rhythm * 0.9
 title_page:
-  align: right
+  align: center
   logo:
     top: 10%
   title:
