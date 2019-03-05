@@ -96,7 +96,8 @@ heading:
 title_page:
   align: center
   logo:
-    top: 10%
+    image: image:../isaqb-logo.jpg[pdfwidth=60%,align=center]
+    top: 65%
   title:
     top: 55%
     font_size: $heading_h1_font_size
