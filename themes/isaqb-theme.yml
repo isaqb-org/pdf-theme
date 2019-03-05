@@ -94,17 +94,19 @@ heading:
   margin_top: $vertical_rhythm * 0.4
   margin_bottom: $vertical_rhythm * 0.9
 title_page:
-  align: right
+  align: center
   logo:
-    top: 10%
+    image: image:../isaqb-logo.jpg[pdfwidth=60%,align=center]
+    top: 65%
   title:
-    top: 55%
+    top: 10%
     font_size: $heading_h1_font_size
     font_color: 999999
-    line_height: 0.9
+    line_height: 1.0
+    margin_top: $base_font_size * 1.25
   subtitle:
-    font_size: $heading_h3_font_size
-    font_style: bold_italic
+    font_size: $heading_h2_font_size
+    font_style: bold
     line_height: 1
   authors:
     margin_top: $base_font_size * 1.25
