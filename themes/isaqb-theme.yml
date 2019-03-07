@@ -270,11 +270,11 @@ footer:
   verso:
     #columns: $footer_recto_columns
     left:
-      content: $footer_recto_right_content
+      content: $footer_recto_left_content
     center:
       content: $footer_recto_center_content
     right:
-      content: $footer_recto_left_content
+      content: $footer_recto_right_content
 
 header:
   height: 2cm
