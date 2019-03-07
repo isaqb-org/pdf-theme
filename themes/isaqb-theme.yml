@@ -277,8 +277,9 @@ footer:
       content: $footer_recto_left_content
 
 header:
-  height: 0.5in
-  image_vertical_align: bottom 
+  height: 2cm
+  image_vertical_align: bottom
+  border_color: dddddd
   recto:
     right:
       content: image:isaqb-logo.jpg[width=90]
