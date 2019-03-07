@@ -282,7 +282,7 @@ header:
   border_color: dddddd
   recto:
     right:
-      content: image:isaqb-logo.jpg[width=90]
+      content: image:isaqb-logo.jpg[width=120]
   verso:
     right:
       content: $header_recto_right_content
