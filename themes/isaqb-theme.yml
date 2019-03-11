@@ -281,6 +281,8 @@ header:
   image_vertical_align: bottom
   border_color: dddddd
   recto:
+    left:
+      content: '{curriculum-header-title}'
     right:
       content: image:isaqb-logo.jpg[width=120]
   verso:
