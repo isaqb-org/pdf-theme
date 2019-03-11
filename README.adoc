@@ -12,7 +12,16 @@ The pdf theme (aka: _style_) can (and should) be used when converting documents 
 
 1. Add this repository as a submodule to your git repository containing *OR*
 
-2. Clone or download the repository and copy the contents of the `/style` directory into the root of your repository *OR*
+2. Clone or download the repository and copy the contents of the `/style` directory into the root of your repository
+
+If you only use a single title for your document, it will be displayed on the cover page.
+You can also define a subtitle, which will be displayed on the cover page as well, but with a different font style:
+
+`= <This Is The Title>: <This Is The Subtitle>`
+
+In the code of your document, you can define the following variable if you need a header text:
+
+`:curriculum-header-title:` This text will be displayed in the header of the PDF.
 
 
 == How to change the style
