@@ -279,10 +279,11 @@ footer:
 header:
   height: 2cm
   image_vertical_align: bottom
+  vertical_align: bottom
   border_color: dddddd
   recto:
     left:
-      content: '{curriculum-header-title}'
+      content: "{curriculum-header-title}"
     right:
       content: image:isaqb-logo.jpg[width=120]
   verso:
