@@ -286,5 +286,7 @@ header:
     right:
       content: image:isaqb-logo.jpg[width=120]
   verso:
+    left:
+      content: $header_recto_left_content
     right:
       content: $header_recto_right_content
