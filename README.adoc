@@ -35,7 +35,7 @@ You found a bug, have remarks, comments or proposals?
 Open an issue or PR.
 
 == Contributors
-Work on this pdf theme started in February 2019. The original Asciidoctor pdf theme served as a foundation and was initially slightly modified and enhanced by Dr. Gernot Starke.
+Work on this pdf theme started in February 2019. The original Asciidoctor pdf theme served as a foundation and was initially slightly modified and enhanced by Dr. Gernot Starke and Benjamin Wolf.
 
 
 [[copyrighted]]
