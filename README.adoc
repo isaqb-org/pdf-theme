@@ -45,8 +45,8 @@ Work on this pdf theme started in February 2019. The original Asciidoctor pdf th
 ====
 THE iSAQB GRAPHICS ARE COPYRIGHTED.
 
-© (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
-(iSAQB® e. V.) 2009-2019
+(C) (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
+(iSAQB^(R)^ e. V.) 2009-2019
 ====
 
 The style (without the iSAQB logo) may be used freely.
