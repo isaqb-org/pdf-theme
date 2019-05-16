@@ -99,7 +99,7 @@ title_page:
     image: image:../isaqb-logo.jpg[pdfwidth=60%,align=center]
     top: 70%
   title:
-    top: 10%
+    top: 0%
     font_size: $heading_h1_font_size
     font_color: 999999
     line_height: 1.0
