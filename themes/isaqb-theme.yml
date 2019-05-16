@@ -105,6 +105,7 @@ title_page:
     line_height: 1.0
     margin_top: $base_font_size * 1.15
   subtitle:
+    margin_top: $base_font_size * 2
     font_size: $heading_h2_font_size
     font_style: bold
     line_height: 1
