@@ -33,25 +33,11 @@ base:
   align: left
   # color as hex string (leading # is optional)
   font_color: 333333
-  # color as RGB array
-  #font_color: [51, 51, 51]
-  # color as CMYK array (approximated)
-  #font_color: [0, 0, 0, 0.92]
-  #font_color: [0, 0, 0, 92%]
   font_family: Noto Serif
   # choose one of these font_size/line_height_length combinations
-  #font_size: 14
-  #line_height_length: 20
-  #font_size: 11.25
-  #line_height_length: 18
-  #font_size: 11.2
-  #line_height_length: 16
   font_size: 10.5
-  #line_height_length: 15
   # correct line height for Noto Serif metrics
   line_height_length: 12
-  #font_size: 11.25
-  #line_height_length: 18
   line_height: $base_line_height_length / $base_font_size
   font_size_large: round($base_font_size * 1.25)
   font_size_small: round($base_font_size * 0.85)
@@ -60,8 +46,6 @@ base:
   border_color: eeeeee
   border_radius: 4
   border_width: 0.5
-# FIXME vertical_rhythm is weird; we should think in terms of ems
-#vertical_rhythm: $base_line_height_length * 2 / 3
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
@@ -88,7 +72,6 @@ heading:
   h4_font_size: $base_font_size_large
   h5_font_size: $base_font_size
   h6_font_size: $base_font_size_small
-  #line_height: 1.4
   # correct line height for Noto Serif metrics (comes with built-in line height)
   line_height: 1
   margin_top: $vertical_rhythm * 0.4
@@ -124,7 +107,6 @@ caption:
   font_style: italic
   # FIXME perhaps set line_height instead of / in addition to margins?
   margin_inside: $vertical_rhythm / 3
-  #margin_inside: $vertical_rhythm / 4
   margin_outside: 0
 lead:
   font_size: $base_font_size_large
@@ -145,11 +127,6 @@ admonition:
   column_rule_color: $base_border_color
   column_rule_width: $base_border_width
   padding: [0, $horizontal_rhythm, 0, $horizontal_rhythm]
-  #icon:
-  #  tip:
-  #    name: fa-lightbulb-o
-  #    stroke_color: 111111
-  #    size: 24
   label:
     text_transform: uppercase
     font_style: bold
@@ -217,15 +194,11 @@ description_list:
   description_indent: $horizontal_rhythm * 1.25
 outline_list:
   indent: $horizontal_rhythm * 1.5
-  #marker_font_color: 404040
   # NOTE outline_list_item_spacing applies to list items that do not have complex content
   item_spacing: $vertical_rhythm / 2
 table:
   background_color: $page_background_color
-  #head_background_color: <hex value>
-  #head_font_color: $base_font_color
   head_font_style: bold
-  #body_background_color: <hex value>
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
   border_color: dddddd
@@ -249,28 +222,14 @@ footer:
   line_height: 1
   padding: [$base_line_height_length / 2, 1, 0, 1]
   vertical_align: top
-  #image_vertical_align: <alignment> or <number>
-  # additional attributes for content:
-  # * {page-count}
-  # * {page-number}
-  # * {document-title}
-  # * {document-subtitle}
-  # * {chapter-title}
-  # * {section-title}
-  # * {section-or-chapter-title}
   recto:
-    #columns: "<50% =0% >50%"
     right:
       content: '{page-number} / {page-count}'
     left:
       content: '(C) iSAQB e.V.'
-      #content: '{section-or-chapter-title} | {page-number}'
-      #content: '{document-title} | {page-number}'
-      #content: '{page-number} | {chapter-title}'
     center:
       content: 'Version {document-version}'
   verso:
-    #columns: $footer_recto_columns
     left:
       content: $footer_recto_left_content
     center:
