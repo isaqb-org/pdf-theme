@@ -114,7 +114,7 @@ title_page:
     font_size: $base_font_size_large
     font_color: 181818
   revision:
-    margin_top: $base_font_size * 1.25
+    margin_top: 5
 block:
   margin_top: 0
   margin_bottom: $vertical_rhythm
