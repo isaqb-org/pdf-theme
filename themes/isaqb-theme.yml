@@ -211,9 +211,11 @@ toc:
     #content: ". "
     font_color: a9a9a9
     #levels: 2 3
+
+running_content:
+  start_at: toc
 # NOTE in addition to footer, header is also supported
 footer:
-  start_at: toc
   font_size: $base_font_size_small * 0.9
   # NOTE if background_color is set, background and border will span width of page
   border_color: dddddd
@@ -236,9 +238,7 @@ footer:
       content: $footer_recto_center_content
     right:
       content: $footer_recto_right_content
-
 header:
-  start_at: toc
   height: 2cm
   image_vertical_align: bottom
   vertical_align: bottom
