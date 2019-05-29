@@ -21,6 +21,18 @@ Add this repository as a submodule to your git repository containing by using th
 Clone or download the repository and copy the contents of the `/style` directory into the root of your repository.
 
 
+=== Enable style in your build configuration
+
+In your `*.gradle` file, add the following attributes to the task that inherits
+from AsciidoctorTask (assuming that the folder `pdf-theme` is in your root folder):
+
+```
+      'pdf-stylesdir'    : '../pdf-theme/themes',
+      'pdf-fontsdir'     : '../pdf-theme/fonts',
+      'pdf-style'        : 'isaqb'
+```
+
+
 === Title and cover page for your document
 If you only use a single title for your document, it will be displayed on the cover page.
 You can also define a subtitle, which will be displayed on the cover page as well, but with a different font style:
