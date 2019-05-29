@@ -1,11 +1,5 @@
 font:
   catalog:
-    # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
-    Noto Serif:
-      normal: notoserif-regular-subset.ttf
-      bold: notoserif-bold-subset.ttf
-      italic: notoserif-italic-subset.ttf
-      bold_italic: notoserif-bold_italic-subset.ttf
     # M+ 1mn supports ASCII and the circled numbers used for conums
     M+ 1mn:
       normal: mplus1mn-regular-ascii-conums.ttf
@@ -19,6 +13,11 @@ font:
       bold: mplus1p-regular-fallback.ttf
       italic: mplus1p-regular-fallback.ttf
       bold_italic: mplus1p-regular-fallback.ttf
+    Roboto:
+      normal: roboto-normal.ttf
+      italic: roboto-italic.ttf
+      bold: roboto-bold.ttf
+      bold_italic: roboto-bold_italic.ttf
   fallbacks:
     - M+ 1p Fallback
 page:
@@ -33,7 +32,7 @@ base:
   align: left
   # color as hex string (leading # is optional)
   font_color: 333333
-  font_family: Noto Serif
+  font_family: Roboto
   # choose one of these font_size/line_height_length combinations
   font_size: 10.5
   # correct line height for Noto Serif metrics
