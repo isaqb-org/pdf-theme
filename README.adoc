@@ -10,10 +10,18 @@ The pdf theme (aka: _style_) can (and should) be used when converting documents 
 
 == How to use the style
 
-1. Add this repository as a submodule to your git repository containing *OR*
+=== Add the style to your repository
 
-2. Clone or download the repository and copy the contents of the `/style` directory into the root of your repository
+Add this repository as a submodule to your git repository containing by using the command:
 
+   git submodule add https://github.com/isaqb-org/pdf-theme
+
+*OR*
+
+Clone or download the repository and copy the contents of the `/style` directory into the root of your repository.
+
+
+=== Title and cover page for your document
 If you only use a single title for your document, it will be displayed on the cover page.
 You can also define a subtitle, which will be displayed on the cover page as well, but with a different font style:
 
