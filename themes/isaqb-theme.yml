@@ -43,6 +43,7 @@ base:
   border_color: eeeeee
   border_radius: 4
   border_width: 0.5
+  margin_bottom: 12.5
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
@@ -71,8 +72,8 @@ heading:
   h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
   line_height: 1
-  margin_top: $vertical_rhythm * 0.4
-  margin_bottom: $vertical_rhythm * 0.9
+  #margin_top: $vertical_rhythm * 0.4
+  margin_bottom: 15
 title_page:
   align: center
   logo:
