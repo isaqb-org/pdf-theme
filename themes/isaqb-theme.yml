@@ -226,7 +226,7 @@ footer:
   vertical_align: top
   recto:
     right:
-      content: '{page-number} / {page-count}'
+      content: '{page-number}'
     left:
       content: '(C) iSAQB e.V.'
     center:
