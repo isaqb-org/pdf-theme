@@ -239,7 +239,7 @@ footer:
     right:
       content: $footer_recto_right_content
 header:
-  height: 2.0cm
+  height: 2.5cm
   image_vertical_align: bottom
   vertical_align: bottom
   border_color: dddddd
