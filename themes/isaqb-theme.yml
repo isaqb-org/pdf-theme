@@ -247,7 +247,7 @@ header:
     left:
       content: "{curriculum-header-title}"
     right:
-      content: image:isaqb-logo.jpg[width=140]
+      content: image:../isaqb-logo-without-text.jpg[width=130]
   verso:
     left:
       content: $header_recto_left_content
