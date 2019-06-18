@@ -66,8 +66,10 @@ heading:
   h1_font_size: floor($base_font_size * 2.6)
   # h2 is used for chapter titles (book doctype only)
   h2_font_size: 14
-  h3_font_size: 14
-  h4_font_size: 12
+  h2_margin_bottom: 17
+  h3_font_size: 12
+  h3_margin_bottom: 15
+  h4_font_size: 10
   h5_font_size: $heading_h4_font_size
   h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
