@@ -203,7 +203,8 @@ table:
   foot_background_color: f0f0f0
   border_color: dddddd
   border_width: $base_border_width
-  cell_padding: 3
+  cell:
+    padding: [3, 5, 3, 5]
 toc:
   indent: $horizontal_rhythm
   line_height: 1.8
