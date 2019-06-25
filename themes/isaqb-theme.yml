@@ -68,14 +68,14 @@ heading:
   h2_font_size: 14
   h2_margin_bottom: 17
   h3_font_size: 12
-  h3_margin_bottom: 15
+  h3_margin_bottom: 12
   h4_font_size: 10
   h5_font_size: $heading_h4_font_size
   h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
   line_height: 1
   #margin_top: $vertical_rhythm * 0.4
-  margin_bottom: 11
+  margin_bottom: 10
 title_page:
   align: center
   logo:
@@ -204,7 +204,7 @@ table:
   border_color: dddddd
   border_width: $base_border_width
   cell:
-    padding: [3, 5, 3, 5]
+    padding: [4, 6, 4, 6]
 toc:
   indent: $horizontal_rhythm
   line_height: 1.8
