@@ -241,12 +241,11 @@ footer:
       content: $footer_recto_right_content
 header:
   height: 2.0cm
-  image_vertical_align: bottom
+  image_vertical_align: 13.18mm
   vertical_align: bottom
   border_color: dddddd
   border_width: 0.25
   linge_height: 1
-  padding: [0, 0, -18.2, 0]
   recto:
     left:
       content: "{curriculum-header-title}"
