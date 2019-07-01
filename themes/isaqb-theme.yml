@@ -246,6 +246,7 @@ header:
   border_color: dddddd
   border_width: 0.25
   linge_height: 1
+  padding: [0, -15, 0, 0]
   recto:
     left:
       content: "{curriculum-header-title}"
