@@ -241,7 +241,7 @@ footer:
       content: $footer_recto_right_content
 header:
   height: 2.0cm
-  image_vertical_align: 13.18mm
+  image_vertical_align: 12.16mm
   vertical_align: bottom
   border_color: dddddd
   border_width: 0.25
@@ -250,7 +250,7 @@ header:
     left:
       content: "{curriculum-header-title}"
     right:
-      content: image:../isaqb-logo-without-text.jpg[width=120]
+      content: image:../isaqb-logo-without-text.jpg[width=138]
   verso:
     left:
       content: $header_recto_left_content
