@@ -33,10 +33,8 @@ base:
   # color as hex string (leading # is optional)
   font_color: 333333
   font_family: Roboto
-  # choose one of these font_size/line_height_length combinations
-  font_size: 10.5
-  # correct line height for Noto Serif metrics
-  line_height_length: 12
+  font_size: 9.5
+  line_height_length: 12.5
   line_height: $base_line_height_length / $base_font_size
   font_size_large: round($base_font_size * 1.25)
   font_size_small: round($base_font_size * 0.85)
@@ -45,6 +43,7 @@ base:
   border_color: eeeeee
   border_radius: 4
   border_width: 0.5
+  margin_bottom: 12.5
 # correct line height for Noto Serif metrics (comes with built-in line height)
 vertical_rhythm: $base_line_height_length
 horizontal_rhythm: $base_line_height_length
@@ -66,15 +65,17 @@ heading:
   # h1 is used for part titles (book doctype) or the doctitle (article doctype)
   h1_font_size: floor($base_font_size * 2.6)
   # h2 is used for chapter titles (book doctype only)
-  h2_font_size: floor($base_font_size * 1.4)
-  h3_font_size: round($base_font_size * 1.15)
-  h4_font_size: $base_font_size_large
-  h5_font_size: $base_font_size
-  h6_font_size: $base_font_size_small
+  h2_font_size: 14
+  h2_margin_bottom: 17
+  h3_font_size: 12
+  h3_margin_bottom: 12
+  h4_font_size: 10
+  h5_font_size: $heading_h4_font_size
+  h6_font_size: $heading_h4_font_size
   # correct line height for Noto Serif metrics (comes with built-in line height)
   line_height: 1
-  margin_top: $vertical_rhythm * 0.4
-  margin_bottom: $vertical_rhythm * 0.9
+  #margin_top: $vertical_rhythm * 0.4
+  margin_bottom: 10
 title_page:
   align: center
   logo:
@@ -202,10 +203,11 @@ table:
   foot_background_color: f0f0f0
   border_color: dddddd
   border_width: $base_border_width
-  cell_padding: 3
+  cell:
+    padding: [4, 6, 4, 6]
 toc:
   indent: $horizontal_rhythm
-  line_height: 1.4
+  line_height: 1.8
   dot_leader:
     #content: ". "
     font_color: a9a9a9
@@ -225,7 +227,7 @@ footer:
   vertical_align: top
   recto:
     right:
-      content: '{page-number} / {page-count}'
+      content: '{page-number}'
     left:
       content: '(C) iSAQB e.V.'
     center:
@@ -239,14 +241,17 @@ footer:
       content: $footer_recto_right_content
 header:
   height: 2.0cm
-  image_vertical_align: bottom
+  image_vertical_align: 12.16mm
   vertical_align: bottom
   border_color: dddddd
+  border_width: 0.25
+  linge_height: 1
+  padding: [0, -15, 0, 0]
   recto:
     left:
       content: "{curriculum-header-title}"
     right:
-      content: image:isaqb-logo.jpg[width=140]
+      content: image:../isaqb-logo-without-text.jpg[width=138]
   verso:
     left:
       content: $header_recto_left_content
