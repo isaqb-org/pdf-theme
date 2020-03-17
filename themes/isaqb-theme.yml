@@ -205,7 +205,7 @@ table:
   border_color: dddddd
   border_width: $base_border_width
   cell:
-    padding: [4, 6, 4, 6]
+    padding: [2, 6, 2, 6]
 toc:
   indent: $horizontal_rhythm
   line_height: 1.8
