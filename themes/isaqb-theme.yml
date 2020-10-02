@@ -98,7 +98,7 @@ title_page:
     font_color: 181818
   revision:
     margin_top: 5
-    delimiter: '; '
+    delimiter: '-'
 block:
   margin_top: 0
   margin_bottom: $vertical_rhythm
