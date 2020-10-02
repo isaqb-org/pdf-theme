@@ -232,7 +232,7 @@ footer:
     left:
       content: '(C) iSAQB e.V.'
     center:
-      content: 'Version {document-version}'
+      content: '{document-version}'
   verso:
     left:
       content: $footer_recto_left_content
