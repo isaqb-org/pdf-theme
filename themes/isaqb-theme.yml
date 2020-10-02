@@ -98,7 +98,7 @@ title_page:
     font_color: 181818
   revision:
     margin_top: 5
-    delimiter: '; '
+    delimiter: '-'
 block:
   margin_top: 0
   margin_bottom: $vertical_rhythm
@@ -232,7 +232,7 @@ footer:
     left:
       content: '(C) iSAQB e.V.'
     center:
-      content: 'Version {document-version}'
+      content: '{document-version}'
   verso:
     left:
       content: $footer_recto_left_content
