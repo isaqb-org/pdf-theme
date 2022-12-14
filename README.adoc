@@ -1,6 +1,6 @@
 = https://isaqb.org[iSAQB] PDF Theme
 
-This repository contains the *PDF theme* for iSAQB curricula and other official documents.
+This repository contains the *PDF theme* for iSAQB® curricula and other official documents.
 
 It contains <<copyrighted,copyrighted work>>.
 
@@ -63,13 +63,13 @@ Work on this pdf theme started in February 2019. The original Asciidoctor pdf th
 
 [IMPORTANT]
 ====
-THE iSAQB GRAPHICS ARE COPYRIGHTED.
+THE iSAQB® GRAPHICS ARE COPYRIGHTED.
 
 (C) (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
 (iSAQB^(R)^ e. V.) 2009-2020
 ====
 
-The style (without the iSAQB logo) may be used freely.
+The style (without the iSAQB® logo) may be used freely.
 
-All parts of this theme (style, dimensions, theme, definitions and all other) come *without any guarantee* - please use on your own risk.  
+All parts of this theme (style, dimensions, theme, definitions and all other) come *without any guarantee* - please use on your own risk.
  
