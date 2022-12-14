@@ -1,4 +1,4 @@
-= https://isaqb.org[iSAQB] PDF Theme
+= https://isaqb.org[iSAQB®] PDF Theme
 
 This repository contains the *PDF theme* for iSAQB® curricula and other official documents.
 
@@ -7,14 +7,13 @@ It contains <<copyrighted,copyrighted work>>.
 == Applicability: What this repository is used for
 The pdf theme (aka: _style_) can (and should) be used when converting documents written in AsciiDoc to pdf.
 
-
 == How to use the style
 
 === Add the style to your repository
 
 Add this repository as a submodule to your git repository containing by using the command:
 
-   git submodule add https://github.com/isaqb-org/pdf-theme
+`git submodule add https://github.com/isaqb-org/pdf-theme`
 
 *OR*
 
@@ -26,11 +25,12 @@ Clone or download the repository and copy the contents of the `/style` directory
 In your `*.gradle` file, add the following attributes to the task that inherits
 from AsciidoctorTask (assuming that the folder `pdf-theme` is in your root folder):
 
-```
+[source]
+----
       'pdf-stylesdir'    : '../pdf-theme/themes',
       'pdf-fontsdir'     : '../pdf-theme/fonts',
       'pdf-style'        : 'isaqb'
-```
+----
 
 
 === Title and cover page for your document
@@ -50,9 +50,7 @@ Please see the excellent https://github.com/asciidoctor/asciidoctor-pdf/blob/mas
 
 
 == How to contribute or participate
-You found a bug, have remarks, comments or proposals?
-
-Open an issue or PR.
+You found a bug, have remarks, comments or proposals? Open an issue or PR.
 
 == Contributors
 Work on this pdf theme started in February 2019. The original Asciidoctor pdf theme served as a foundation and was initially slightly modified and enhanced by Dr. Gernot Starke and Benjamin Wolf.
@@ -65,11 +63,10 @@ Work on this pdf theme started in February 2019. The original Asciidoctor pdf th
 ====
 THE iSAQB® GRAPHICS ARE COPYRIGHTED.
 
-(C) (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
-(iSAQB^(R)^ e. V.) 2009-2020
+© (Copyright), https://isaqb.org[International Software Architecture Qualification Board e. V.]
+(iSAQB® e. V.) 2009-2023
 ====
 
 The style (without the iSAQB® logo) may be used freely.
 
 All parts of this theme (style, dimensions, theme, definitions and all other) come *without any guarantee* - please use on your own risk.
- 
