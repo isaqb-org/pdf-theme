@@ -216,7 +216,7 @@ toc:
     #levels: 2 3
 
 running_content:
-  start_at: toc
+  start_at: 2
 # NOTE in addition to footer, header is also supported
 footer:
   font_size: $base_font_size_small * 0.9
